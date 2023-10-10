@@ -1,12 +1,12 @@
 # Ansible Role: Elasticsearch
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-elasticsearch/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-elasticsearch/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-elasticsearch/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-elasticsearch/actions/workflows/ci.yml)
 
 An Ansible Role that installs Elasticsearch on RedHat/CentOS or Debian/Ubuntu.
 
 ## Requirements
 
-Requires at least Java 8. You can use the [`shaneholloman.java`](https://github.com/shaneholloman/ansible-role-java) to easilly install Java.
+Requires at least Java 8. You can use the [`shaneholloman.java`](https://github.com/shaneholloman/ansible-role-java) to easily install Java.
 
 ## Role Variables
 
@@ -75,4 +75,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-

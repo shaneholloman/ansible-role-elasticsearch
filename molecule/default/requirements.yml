@@ -1,2 +1,3 @@
 ---
-- src: shaneholloman.java
+- name: shaneholloman.java
+  src: https://github.com/shaneholloman/ansible-role-java
