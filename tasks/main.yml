@@ -1,11 +1,11 @@
 ---
 
 - name: Include RedHat setup tasks
-  ansible.builtin.include_tasks: setup-RedHat.yml
+  ansible.builtin.include_tasks: setup-redhat.yml
   when: ansible_os_family == 'RedHat'
 
 - name: Include Debian setup tasks
-  ansible.builtin.include_tasks: setup-Debian.yml
+  ansible.builtin.include_tasks: setup-debian.yml
   when: ansible_os_family == 'Debian'
 
 - name: Install Elasticsearch.
@@ -19,7 +19,7 @@
     dest: "{{ item }}"
     owner: root
     group: elasticsearch
-    mode: 0660
+    mode: '0660'
   with_items:
     - /etc/elasticsearch/elasticsearch.yml
     - /etc/elasticsearch/jvm.options
@@ -32,7 +32,7 @@
     dest: "{{ item }}"
     owner: root
     group: elasticsearch
-    mode: 0660
+    mode: '0660'
   with_items:
     - /etc/elasticsearch/elasticsearch.yml
     - /etc/elasticsearch/jvm.options.d/heap.options
