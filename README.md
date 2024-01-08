@@ -2,7 +2,11 @@
 
 [![CI](https://github.com/shaneholloman/ansible-role-elasticsearch/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-elasticsearch/actions/workflows/ci.yml)
 
-An Ansible Role that installs Elasticsearch on RedHat/CentOS or Debian/Ubuntu.
+An Ansible Role that installs Elasticsearch up to version 7.x on RedHat/CentOS or Debian/Ubuntu.
+
+TODO:
+
+- [ ] Add support for version 8 of Elasticsearch
 
 ## Requirements
 
